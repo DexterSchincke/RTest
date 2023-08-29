@@ -24,7 +24,11 @@ summary(cars)
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+install.packages("usethis")
+library(usethis)
+use_git_config(user.name = "DexterSchincke", user.email = "ddschincke@my365.bellevue.edu")
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+hi
